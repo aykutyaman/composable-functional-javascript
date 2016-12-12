@@ -1,7 +1,7 @@
 // Create linear data flow with container style types (Box)
 // http://bit.ly/2gozUb7
 
-import box from './lib/box';
+import { box } from './lib/box';
 
 const nextCharForNumberString = str =>
   box(str)
