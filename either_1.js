@@ -1,5 +1,5 @@
 const fs = require('fs');
-import { tryCatch } from './lib/box';
+import { tryCatch } from './lib';
 
 
 const getPort = () =>

@@ -3,7 +3,7 @@
 
 /* eslint-disable no-console, new-cap */
 
-import { Box } from './lib/box';
+import { Box } from './lib';
 
 const nextCharForNumberString = str =>
   Box(str)

@@ -1,7 +1,7 @@
 // Enforce a null check with composable code branching using Either
 // http://bit.ly/2gMgPvt
 
-import { fromNullable } from './lib/box';
+import { fromNullable } from './lib';
 
 const findColor = name => {
   return fromNullable({

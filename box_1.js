@@ -1,7 +1,7 @@
 // Refactor imperative code to a single composed expression using Box
 // http://bit.ly/2hx1EWZ
 
-import { Box } from './lib/box';
+import { Box } from './lib';
 
 const moneyToFloat = str =>
   Box(str)

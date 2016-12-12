@@ -1,0 +1,26 @@
+{
+  "name": "composable-functional-javascript",
+  "version": "1.0.0",
+  "description": "This repo contains code samples from the course \"Learning Composable Functional JavaScript with Professor Frisby\"",
+  "main": "box_0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykutyaman/composable-functional-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aykutyaman/composable-functional-javascript/issues"
+  },
+  "homepage": "https://github.com/aykutyaman/composable-functional-javascript#readme",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "immutable-ext": "^1.0.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
