@@ -1,15 +1,15 @@
 // Refactor imperative code to a single composed expression using Box
 // http://bit.ly/2hx1EWZ
 
-import { box } from './lib/box';
+import { Box } from './lib/box';
 
 const moneyToFloat = str =>
-  box(str)
+  Box(str)
   .map(s => s.replace(/\$/g, ''))
   .map(r => parseFloat(r));
 
 const percentToFloat = str =>
-  box(str.replace(/%/g, ''))
+  Box(str.replace(/%/g, ''))
   .map(replaced => parseFloat(replaced))
   .map(n => n * 0.01);
 

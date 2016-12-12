@@ -1,10 +1,12 @@
 // Create linear data flow with container style types (Box)
 // http://bit.ly/2gozUb7
 
-import { box } from './lib/box';
+/* eslint-disable no-console, new-cap */
+
+import { Box } from './lib/box';
 
 const nextCharForNumberString = str =>
-  box(str)
+  Box(str)
   .map(s => s.trim())
   .map(r => new Number(r))
   .map(i => i + 1)
